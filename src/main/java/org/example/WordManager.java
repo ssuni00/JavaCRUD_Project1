@@ -31,8 +31,18 @@ public class WordManager {
             if(menu == 0) break;
             else if(menu==1){
                 wordCRUD.listAll();
+            }else if(menu==2){
+                //수준별 단어 보기
+            }else if(menu==3){
+                wordCRUD.searchWord();
             }else if(menu==4){
                 wordCRUD.addWord();
+            }else if(menu==5){
+                //단어 수정
+            }else if(menu==6){
+                //단어 삭제
+            }else if(menu==7){
+                //파일 저장
             }
         }
 
