@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09507a8f-1bc8-4e53-9b2a-3ce7229ce767" name="Changes" comment="feat: 수준별단어검색기능추가" />
+    <list default="true" id="09507a8f-1bc8-4e53-9b2a-3ce7229ce767" name="Changes" comment="feat: 수준별단어검색기능추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +76,7 @@
       <workItem from="1694707604919" duration="534000" />
       <workItem from="1694708360624" duration="543000" />
       <workItem from="1694708988925" duration="884000" />
+      <workItem from="1694710071020" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add기능 추가">
       <option name="closed" value="true" />
@@ -112,7 +118,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694707961486</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 수준별단어검색기능추가">
+      <option name="closed" value="true" />
+      <created>1694710145445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694710145445</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 수준별단어검색기능추가">
+      <option name="closed" value="true" />
+      <created>1694710175844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694710175844</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: 수준별단어검색기능추가">
+      <option name="closed" value="true" />
+      <created>1694710188649</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694710188649</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

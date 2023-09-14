@@ -28,7 +28,10 @@ public class WordManager {
 
         while(true){
             int menu = selectMenu();
-            if(menu == 0) break;
+            if(menu == 0) {
+                System.out.println("프로그램 종료! 다음에 만나요~");
+                break;
+            }
             else if(menu==1){
                 wordCRUD.listAll();
             }else if(menu==2){
@@ -42,7 +45,7 @@ public class WordManager {
             }else if(menu==6){
                 wordCRUD.deleteWord();
             }else if(menu==7){
-                //파일 저장
+                wordCRUD.saveWord();
             }
         }
 

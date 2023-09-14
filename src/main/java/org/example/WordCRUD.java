@@ -1,4 +1,7 @@
 package org.example;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -40,7 +43,7 @@ public class WordCRUD implements ICRUD{
         Word word = list.get(idlist.get(id - 1));
         word.setMeaning(meaning);
 
-        System.out.println("선택한 단어 삭제 완료!!");
+        System.out.println("선택한 단어 수정 완료!!");
     }
 
     @Override
@@ -57,7 +60,7 @@ public class WordCRUD implements ICRUD{
         String confirm = s.next();
         if(confirm.equalsIgnoreCase("y")){
             list.remove((int)idlist.get(id-1));
-            System.out.println("단어가 삭제되었습니다. ");
+            System.out.println("선택한 단어 삭제 완료!!! ");
         }else{
             System.out.println("취소되었습니다. ");
         }
@@ -120,7 +123,19 @@ public class WordCRUD implements ICRUD{
         return idlist;
     }
 
+    public void saveWord() {
+        try {
+            PrintWriter pr = new PrintWriter(new FileWriter(fname));
+            for(Word one : list){
+                pr.write(one.toFileString() + "\n");
+            }
 
+            pr.close();
+            System.out.println("==> 모든 단어 파일 저장 완료!! ");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
 }
