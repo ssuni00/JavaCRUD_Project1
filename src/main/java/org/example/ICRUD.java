@@ -5,4 +5,5 @@ public interface ICRUD {
     public void updateWord();
     public void deleteWord();
     public void searchWord();
+    public void searchLevel();
 }

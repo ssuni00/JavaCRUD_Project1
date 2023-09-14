@@ -36,9 +36,15 @@ public class WordCRUD implements ICRUD{
 
     @Override
     public void searchWord() {
-        System.out.print("=> 원하는 단어는? ");
+        System.out.print("=> 검색할 단어 입력: ");
         String search = s.next();
         listAll(search);
+    }
+    @Override
+    public void searchLevel() {
+        System.out.print("=> 레벨(1:초급, 2:중급, 3:고급) 선택 : ");
+        int level = s.nextInt();
+        listAll(level);
     }
 
     public void addWord(){

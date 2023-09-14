@@ -32,7 +32,7 @@ public class WordManager {
             else if(menu==1){
                 wordCRUD.listAll();
             }else if(menu==2){
-                //수준별 단어 보기
+                wordCRUD.searchLevel();
             }else if(menu==3){
                 wordCRUD.searchWord();
             }else if(menu==4){
