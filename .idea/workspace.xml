@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09507a8f-1bc8-4e53-9b2a-3ce7229ce767" name="Changes" comment="feat: list보기 기능 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="09507a8f-1bc8-4e53-9b2a-3ce7229ce767" name="Changes" comment="feat: 수준별단어검색기능추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -67,7 +67,9 @@
       <option name="presentableId" value="Default" />
       <updated>1694138611552</updated>
       <workItem from="1694138612842" duration="1253000" />
-      <workItem from="1694482947442" duration="883000" />
+      <workItem from="1694482947442" duration="1463000" />
+      <workItem from="1694707604919" duration="534000" />
+      <workItem from="1694708360624" duration="543000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add기능 추가">
       <option name="closed" value="true" />
@@ -93,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694144075639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 단어검색기능추가">
+      <option name="closed" value="true" />
+      <created>1694484108956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694484108956</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 수준별단어검색기능추가">
+      <option name="closed" value="true" />
+      <created>1694707961486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694707961486</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +121,8 @@
     <MESSAGE value="feat: add기능 추가" />
     <MESSAGE value="fix: wordmanager class 오류 수정" />
     <MESSAGE value="feat: list보기 기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: list보기 기능 추가" />
+    <MESSAGE value="feat: 단어검색기능추가" />
+    <MESSAGE value="feat: 수준별단어검색기능추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 수준별단어검색기능추가" />
   </component>
 </project>

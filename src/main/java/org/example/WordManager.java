@@ -38,9 +38,9 @@ public class WordManager {
             }else if(menu==4){
                 wordCRUD.addWord();
             }else if(menu==5){
-                //단어 수정
+                wordCRUD.updateWord();
             }else if(menu==6){
-                //단어 삭제
+                wordCRUD.deleteWord();
             }else if(menu==7){
                 //파일 저장
             }
