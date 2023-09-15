@@ -4,7 +4,7 @@
 
 [최종보고 실행파일]
 
-0. test
+<h1>0.test</h1>
    <img src="test.png>
 2. 
   <img width="1440" alt="1" src="https://github.com/ssuni00/JavaCRUD_Project1/assets/126534280/032a7722-0991-4cbc-b037-ab09864e0632">
