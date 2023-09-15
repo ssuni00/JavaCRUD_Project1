@@ -1,1 +1,6 @@
 1| happy|행복
+1| love|사랑
+2| invite|초대하다
+2| mode|분위기
+3| mandate|권한,명령,요구
+3| nerve|신경,활기
