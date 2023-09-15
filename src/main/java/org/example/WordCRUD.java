@@ -1,7 +1,5 @@
 package org.example;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -122,7 +120,29 @@ public class WordCRUD implements ICRUD{
         System.out.println("————————————————————————————————");
         return idlist;
     }
+    public void loadFile(){
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(fname));
+            String line;
+            int wcount = 0;
 
+            while (true) {
+                line = br.readLine();
+                if(line == null) break;
+
+                String data[] = line.split("\\|");
+                int level = Integer.parseInt(data[0]);
+                String word = data[1];
+                String meaning = data[2];
+                list.add(new Word(0, level, word, meaning));
+                wcount++;
+            }
+            br.close();
+            System.out.println("==> " + wcount + "개 로딩 완료!!! ");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     public void saveWord() {
         try {
             PrintWriter pr = new PrintWriter(new FileWriter(fname));

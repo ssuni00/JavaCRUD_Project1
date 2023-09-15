@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09507a8f-1bc8-4e53-9b2a-3ce7229ce767" name="Changes" comment="feat: 수준별단어검색기능추가">
+    <list default="true" id="09507a8f-1bc8-4e53-9b2a-3ce7229ce767" name="Changes" comment="feat: 단어장 로딩기능 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
@@ -76,7 +76,7 @@
       <workItem from="1694707604919" duration="534000" />
       <workItem from="1694708360624" duration="543000" />
       <workItem from="1694708988925" duration="884000" />
-      <workItem from="1694710071020" duration="505000" />
+      <workItem from="1694710071020" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add기능 추가">
       <option name="closed" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694710188649</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: 단어장 저장기능 구현">
+      <option name="closed" value="true" />
+      <created>1694710610801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694710610801</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +173,8 @@
     <MESSAGE value="feat: list보기 기능 추가" />
     <MESSAGE value="feat: 단어검색기능추가" />
     <MESSAGE value="feat: 수준별단어검색기능추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 수준별단어검색기능추가" />
+    <MESSAGE value="feat: 단어장 저장기능 구현" />
+    <MESSAGE value="feat: 단어장 로딩기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 단어장 로딩기능 구현" />
   </component>
 </project>
